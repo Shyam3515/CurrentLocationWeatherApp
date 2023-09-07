@@ -29,7 +29,7 @@ setInterval(()=>{
     const ampm = hour <= 12 ? 'AM' : 'PM';
 
     timeEl.innerHTML = (hoursIn12HrsFormat<10 ? '0'+hoursIn12HrsFormat : hoursIn12HrsFormat) +':'+ mins +' '+ `<span id="am-pm">${ampm}</span>`;
-    dateEl.innerHTML = days[day]+','+date+' '+months[month];
+    dateEl.innerHTML = days[day]+', '+date+' '+months[month];
 },1);
 //get Weather Data
 function getWeatherData(){
