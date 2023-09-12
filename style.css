@@ -140,7 +140,7 @@ body{
   }
   .future-forecast .today{
     width: max-content;
-    padding:20px;
+    padding:25px;
   }
   .future-forecast{
     justify-content: start;
