@@ -178,6 +178,13 @@ body{
   }
 }
 
+@media only screen and (max-width: 900px){
+  .current-info .others{
+    padding: 12px;
+    line-height: 1.6;
+  }
+}
+
 @media only screen and (max-width: 1400px){
   .future-forecast{
       justify-content: start;
